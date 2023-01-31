@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Meta-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/x-icon" href="imagenes/icono.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Courgette&family=Quicksand&display=swap" rel="stylesheet">
+  <!--CSS-->
+  <link href="style.css" rel="stylesheet">
+  <title>Proyecto Argentina Programa</title>
+  <!--Icono-->
+
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-md navbar-light">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-toggler">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/icono.png" alt="Logo">
+        </a>
+        <ul class="navbar-nav d-flex justify-content-center align-items-center">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+         
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <section class="perfil align-items-stretch">
+    <div class="perfil-principal d-flex flex-column justify-content-center align-items-center">
+      <img class="perfil-foto" src="imagenes/desarrollador5.svg"> <!--foto de perfil-->
+      <h1>Hola soy Enzo Tello</h1>
+      <h2> y soy Desarrollador Web</h2>
+    </div>
+    <div class="perfil-inferior">
+      <img class="perfil-inferior-imagen img-fluid"
+      src="imagenes/perfil-inferior.svg"
+      alt="Monitor y lenguajes de programacion que aprendi"
+      >
+    </div>
+  </section>
+
+  <section id="sobre-mi" class="sobre-mi seccion-oscura">
+    <div class="contenedor">
+      <h2 class="seccion-titulo ">Sobre Mi</h2>
+      <p class="seccion-parrafo">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat massa, malesuada sit amet suscipit eget, fringilla pretium mauris. Nulla eu sollicitudin purus. Quisque auctor mauris vel sodales fermentum. In mattis elementum cursus. Suspendisse tempor ut mauris id hendrerit. Duis volutpat ante sit amet bibendum placerat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed gravida posuere est id tempor. Fusce id urna ex.</p>
+    </div>
+  </section>
+  <section class="experiencia seccion-clara">
+    <div class="container text-center">
+    <div class="row">
+      <div class="columna col 12 col-sm-6">
+        <i class="bi bi-code-square"></i>
+        <p class="experiencia-titulo">Desarrollo Web</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat massa, malesuada sit amet suscipit eget, fringilla pretium mauris.</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">HTML</span>
+          <span class="badge text-bg-primary">CSS</span>
+          <span class="badge text-bg-primary">JavaScript</span>
+          <span class="badge text-bg-primary">React</span>
+        </div>
+      </div>
+      <div class="columna col 12 col-sm-6">
+        <i class="bi bi-book"></i>
+        <p class="experiencia-titulo">Estudios</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis erat massa, malesuada sit amet suscipit eget, fringilla pretium mauris.</p>
+        <div class="badges-contenedor">
+          <span class="badge text-bg-primary">freeCodeCamp</span>
+          <span class="badge text-bg-primary">Desarrollo Web</span>
+          <span class="badge text-bg-primary">Python</span>
+          
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="projectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+    <h2 class="seccion-titulo ">Mis proyectos</h2>
+    <h3 class="seccion-parrafo">Esto son algunos proyectos que he creado</h3>
+    <div class="container text-center proyectos-contenedor">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto1.png"
+            alt="proyecto 1"
+            >
+            <div class="overlay">
+              <p>Proyecto 1</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto2.png"
+            alt="proyecto 2"
+            >
+            <div class="overlay">
+              <p>Proyecto 2</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto3.png"
+            alt="proyecto 3"
+            >
+            <div class="overlay">
+              <p>Proyecto 3</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto4.png"
+            alt="proyecto 4"
+            >
+            <div class="overlay">
+              <p>Proyecto 4</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto5.png"
+            alt="proyecto 5"
+            >
+            <div class="overlay">
+              <p>Proyecto 5</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="proyecto">
+            <img 
+            src="imagenes/proyecto6.png"
+            alt="proyecto 6"
+            >
+            <div class="overlay">
+              <p>Proyecto 6</p>
+              <div class="iconos-contenedor">
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-github"></i>
+                </a>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" target="_blank" rel="noopener noreferrer">
+                  <i class="bi bi-laptop"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+    <button type="button" class="btn btn-info">Ver mas proyectos </button>
+</section>
+<section id="testimonios" class="testimonios seccion-clara">
+<h2 class="seccion-titulo">Testimonios</h2>
+<h3 class="seccion-parrafo">Estos son algunos testimonios de mis clientes</h3>
+
+<div id="testimonios-carrusel" class="carousel carousel-dark slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/cliente.1.jpg" alt="foto de Ana">
+        <p class="testimonio-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum libero felis, eget venenatis leo tincidunt et. Fusce quis porttitor leo. Aliquam urna turpis, fermentum eu lectus vitae, placerat aliquet velit.
+        </p>
+        <div class="testimonio-info">
+          <p class="nombre">Ana</p>
+          <p class="cargo">Diseño grafico</p>
+        </div>  
+      </div>
+      
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/cliente2.jpg" alt="foto de Gino">
+        <p class="testimonio-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum libero felis, eget venenatis leo tincidunt et. Fusce quis porttitor leo. Aliquam urna turpis, fermentum eu lectus vitae, placerat aliquet velit.
+        </p>
+        <div class="testimonio-info">
+          <p class="nombre">Gino</p>
+          <p class="cargo">Gerente de proyectos </p>
+        </div>  
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="imagenes/cliente3.jpg" alt="foto de Raul">
+        <p class="testimonio-texto">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum libero felis, eget venenatis leo tincidunt et. Fusce quis porttitor leo. Aliquam urna turpis, fermentum eu lectus vitae, placerat aliquet velit.
+        </p>
+        <div class="testimonio-info">
+          <p class="nombre">Raul</p>
+          <p class="cargo">Vendedor de seguros</p>
+        </div>  
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Siguiente</span>
+  </button>
+</div>
+</section>
+<section id="contacto" class="contacto seccion-oscura">
+<div class="container">
+<div class="container text-center rectangulo d-flex justify-content-evenly">
+<div class="row">
+<div class="col-12 col-md-4 seccion-titulo">
+  Contactame
+</div>
+<div class="col-12 col-md-4 descripcion">
+Contactame para iniciar tu proyecto de desarrollo web y hare que tu vision se vuelva real
+</div>
+<div class="col-12 col-md-4">
+<a href="mailto:enzotello0@gmail.com">
+<button type="button">
+Contacto
+<i class="bi bi-envelope-check"></i>
+</button>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center">
+<img class="footer-logo" src="imagenes/icono-blanco.svg" alt="Logo de portfolio">
+<p class="footer-texto text-center">
+Aprendo y creo todos los dias.<br>Creemos un proyecto juntos
+</p>
+<div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+  <a href="https://twitter.com/?lang=es" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-twitter"></i>
+  </a>
+  <a href="https://github.com/enzotello" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-github"></i>
+  </a>
+  <a href="https://www.linkedin.com/in/enzo-tello-8731b022a/" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-linkedin"></i>
+  </a>
+  
+  <a href="mailto:enzotello0@gmail.com" target="_blank" rel="noopener noreferrer">
+    <i class="bi bi-envelope"></i>
+  </a>
+  
+</div>
+<div class="derechos-de-autor">Creado por Enzo Tello(2023) &#169;</div>
+</footer>
+</body>
+</html>
